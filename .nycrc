@@ -1,0 +1,14 @@
+{
+  "extension": [
+    ".js"
+  ],
+  "exclude": [
+    "**/*.test.js",
+    "**/node_modules/**"
+  ],
+  "reporter": [
+    "lcov",
+    "text"
+  ],
+  "all": true
+}

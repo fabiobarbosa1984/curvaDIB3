@@ -1,0 +1,344 @@
+[
+    {
+        "codigo_vencimento": "U23",
+        "vencimentoAjustado": "01/09/2023",
+        "diasUteis": 19,
+        "volume": "2.737.972.467",
+        "ultima_taxa": "13,154",
+        "preco_ajuste": "99072.58",
+        "taxaAjuste": "13.15"
+    },
+    {
+        "codigo_vencimento": "V23",
+        "vencimentoAjustado": "02/10/2023",
+        "diasUteis": 39,
+        "volume": "14.321.369.225",
+        "ultima_taxa": "13,052",
+        "preco_ajuste": "98119.19",
+        "taxaAjuste": "13.05"
+    },
+    {
+        "codigo_vencimento": "X23",
+        "vencimentoAjustado": "01/11/2023",
+        "diasUteis": 60,
+        "volume": "820.735.844",
+        "ultima_taxa": "12,906",
+        "preco_ajuste": "97151.65",
+        "taxaAjuste": "12.90"
+    },
+    {
+        "codigo_vencimento": "Z23",
+        "vencimentoAjustado": "01/12/2023",
+        "diasUteis": 80,
+        "volume": "8.066.964.692",
+        "ultima_taxa": "12,695",
+        "preco_ajuste": "96278.04",
+        "taxaAjuste": "12.69"
+    },
+    {
+        "codigo_vencimento": "F24",
+        "vencimentoAjustado": "02/01/2024",
+        "diasUteis": 100,
+        "volume": "52.248.465.943",
+        "ultima_taxa": "12,490",
+        "preco_ajuste": "95439.34",
+        "taxaAjuste": "12.48"
+    },
+    {
+        "codigo_vencimento": "G24",
+        "vencimentoAjustado": "01/02/2024",
+        "diasUteis": 122,
+        "volume": "592.790.996",
+        "ultima_taxa": "12,300",
+        "preco_ajuste": "94541.59",
+        "taxaAjuste": "12.29"
+    },
+    {
+        "codigo_vencimento": "H24",
+        "vencimentoAjustado": "01/03/2024",
+        "diasUteis": 141,
+        "volume": "30.582.791",
+        "ultima_taxa": "12,120",
+        "preco_ajuste": "93813.68",
+        "taxaAjuste": "12.09"
+    },
+    {
+        "codigo_vencimento": "J24",
+        "vencimentoAjustado": "01/04/2024",
+        "diasUteis": 161,
+        "volume": "25.059.145.795",
+        "ultima_taxa": "11,925",
+        "preco_ajuste": "93056.87",
+        "taxaAjuste": "11.92"
+    },
+    {
+        "codigo_vencimento": "K24",
+        "vencimentoAjustado": "02/05/2024",
+        "diasUteis": 183,
+        "volume": "103.240.169",
+        "ultima_taxa": "11,750",
+        "preco_ajuste": "92260.10",
+        "taxaAjuste": "11.73"
+    },
+    {
+        "codigo_vencimento": "M24",
+        "vencimentoAjustado": "03/06/2024",
+        "diasUteis": 204,
+        "volume": "31.306.687",
+        "ultima_taxa": "11,545",
+        "preco_ajuste": "91541.15",
+        "taxaAjuste": "11.54"
+    },
+    {
+        "codigo_vencimento": "N24",
+        "vencimentoAjustado": "01/07/2024",
+        "diasUteis": 224,
+        "volume": "19.914.018.303",
+        "ultima_taxa": "11,365",
+        "preco_ajuste": "90882.50",
+        "taxaAjuste": "11.35"
+    },
+    {
+        "codigo_vencimento": "Q24",
+        "vencimentoAjustado": "01/08/2024",
+        "diasUteis": 247,
+        "volume": "734.453.546",
+        "ultima_taxa": "11,165",
+        "preco_ajuste": "90143.10",
+        "taxaAjuste": "11.17"
+    },
+    {
+        "codigo_vencimento": "V24",
+        "vencimentoAjustado": "01/10/2024",
+        "diasUteis": 290,
+        "volume": "1.726.860.208",
+        "ultima_taxa": "10,880",
+        "preco_ajuste": "88802.21",
+        "taxaAjuste": "10.87"
+    },
+    {
+        "codigo_vencimento": "F25",
+        "vencimentoAjustado": "02/01/2025",
+        "diasUteis": 354,
+        "volume": "43.736.950.474",
+        "ultima_taxa": "10,550",
+        "preco_ajuste": "86870.24",
+        "taxaAjuste": "10.54"
+    },
+    {
+        "codigo_vencimento": "J25",
+        "vencimentoAjustado": "01/04/2025",
+        "diasUteis": 415,
+        "volume": "5.839.474.067",
+        "ultima_taxa": "10,355",
+        "preco_ajuste": "85036.78",
+        "taxaAjuste": "10.34"
+    },
+    {
+        "codigo_vencimento": "N25",
+        "vencimentoAjustado": "01/07/2025",
+        "diasUteis": 476,
+        "volume": "5.592.621.837",
+        "ultima_taxa": "10,195",
+        "preco_ajuste": "83259.79",
+        "taxaAjuste": "10.19"
+    },
+    {
+        "codigo_vencimento": "V25",
+        "vencimentoAjustado": "01/10/2025",
+        "diasUteis": 542,
+        "volume": "1.779.398.302",
+        "ultima_taxa": "10,090",
+        "preco_ajuste": "81320.58",
+        "taxaAjuste": "10.09"
+    },
+    {
+        "codigo_vencimento": "F26",
+        "vencimentoAjustado": "02/01/2026",
+        "diasUteis": 607,
+        "volume": "24.076.697.553",
+        "ultima_taxa": "9,995",
+        "preco_ajuste": "79490.50",
+        "taxaAjuste": "10.00"
+    },
+    {
+        "codigo_vencimento": "J26",
+        "vencimentoAjustado": "01/04/2026",
+        "diasUteis": 668,
+        "volume": "42.336.343",
+        "ultima_taxa": "10,025",
+        "preco_ajuste": "77655.44",
+        "taxaAjuste": "10.01"
+    },
+    {
+        "codigo_vencimento": "N26",
+        "vencimentoAjustado": "01/07/2026",
+        "diasUteis": 729,
+        "volume": "4.889.551.287",
+        "ultima_taxa": "10,030",
+        "preco_ajuste": "75836.80",
+        "taxaAjuste": "10.03"
+    },
+    {
+        "codigo_vencimento": "V26",
+        "vencimentoAjustado": "01/10/2026",
+        "diasUteis": 794,
+        "volume": "22.231.636",
+        "ultima_taxa": "10,100",
+        "preco_ajuste": "73868.80",
+        "taxaAjuste": "10.09"
+    },
+    {
+        "codigo_vencimento": "F27",
+        "vencimentoAjustado": "04/01/2027",
+        "diasUteis": 857,
+        "volume": "15.264.291.154",
+        "ultima_taxa": "10,110",
+        "preco_ajuste": "72059.09",
+        "taxaAjuste": "10.11"
+    },
+    {
+        "codigo_vencimento": "J27",
+        "vencimentoAjustado": "01/04/2027",
+        "diasUteis": 917,
+        "volume": "10.390.716",
+        "ultima_taxa": "10,200",
+        "preco_ajuste": "70231.92",
+        "taxaAjuste": "10.20"
+    },
+    {
+        "codigo_vencimento": "N27",
+        "vencimentoAjustado": "01/07/2027",
+        "diasUteis": 980,
+        "volume": "2.134.403.745",
+        "ultima_taxa": "10,250",
+        "preco_ajuste": "68380.76",
+        "taxaAjuste": "10.27"
+    },
+    {
+        "codigo_vencimento": "V27",
+        "vencimentoAjustado": "01/10/2027",
+        "diasUteis": 1045,
+        "volume": "10.112.626",
+        "ultima_taxa": "10,340",
+        "preco_ajuste": "66540.74",
+        "taxaAjuste": "10.32"
+    },
+    {
+        "codigo_vencimento": "F28",
+        "vencimentoAjustado": "03/01/2028",
+        "diasUteis": 1108,
+        "volume": "1.721.353.586",
+        "ultima_taxa": "10,375",
+        "preco_ajuste": "64756.01",
+        "taxaAjuste": "10.39"
+    },
+    {
+        "codigo_vencimento": "J28",
+        "vencimentoAjustado": "03/04/2028",
+        "diasUteis": 1171,
+        "volume": "6.364.418",
+        "ultima_taxa": "10,460",
+        "preco_ajuste": "63037.53",
+        "taxaAjuste": "10.44"
+    },
+    {
+        "codigo_vencimento": "N28",
+        "vencimentoAjustado": "03/07/2028",
+        "diasUteis": 1232,
+        "volume": "12.946.397",
+        "ultima_taxa": "10,520",
+        "preco_ajuste": "61382.57",
+        "taxaAjuste": "10.50"
+    },
+    {
+        "codigo_vencimento": "F29",
+        "vencimentoAjustado": "02/01/2029",
+        "diasUteis": 1357,
+        "volume": "4.222.982.335",
+        "ultima_taxa": "10,560",
+        "preco_ajuste": "58184.20",
+        "taxaAjuste": "10.58"
+    },
+    {
+        "codigo_vencimento": "F30",
+        "vencimentoAjustado": "02/01/2030",
+        "diasUteis": 1607,
+        "volume": "47.031.889",
+        "ultima_taxa": "10,710",
+        "preco_ajuste": "52209.06",
+        "taxaAjuste": "10.73"
+    },
+    {
+        "codigo_vencimento": "F31",
+        "vencimentoAjustado": "02/01/2031",
+        "diasUteis": 1860,
+        "volume": "1.325.584.187",
+        "ultima_taxa": "10,820",
+        "preco_ajuste": "46787.09",
+        "taxaAjuste": "10.84"
+    },
+    {
+        "codigo_vencimento": "F32",
+        "vencimentoAjustado": "02/01/2032",
+        "diasUteis": 2113,
+        "volume": "30.744.261",
+        "ultima_taxa": "10,830",
+        "preco_ajuste": "42108.44",
+        "taxaAjuste": "10.87"
+    },
+    {
+        "codigo_vencimento": "F33",
+        "vencimentoAjustado": "03/01/2033",
+        "diasUteis": 2365,
+        "volume": "676.081.016",
+        "ultima_taxa": "10,900",
+        "preco_ajuste": "37753.86",
+        "taxaAjuste": "10.94"
+    },
+    {
+        "codigo_vencimento": "F34",
+        "vencimentoAjustado": "02/01/2034",
+        "diasUteis": 2616,
+        "volume": "0",
+        "ultima_taxa": "0,000",
+        "preco_ajuste": "33912.31",
+        "taxaAjuste": "10.98"
+    },
+    {
+        "codigo_vencimento": "F35",
+        "vencimentoAjustado": "02/01/2035",
+        "diasUteis": 2865,
+        "volume": "0",
+        "ultima_taxa": "0,000",
+        "preco_ajuste": "30423.47",
+        "taxaAjuste": "11.03"
+    },
+    {
+        "codigo_vencimento": "F36",
+        "vencimentoAjustado": "02/01/2036",
+        "diasUteis": 3115,
+        "volume": "0",
+        "ultima_taxa": "0,000",
+        "preco_ajuste": "27392.40",
+        "taxaAjuste": "11.04"
+    },
+    {
+        "codigo_vencimento": "F37",
+        "vencimentoAjustado": "02/01/2037",
+        "diasUteis": 3369,
+        "volume": "0",
+        "ultima_taxa": "0,000",
+        "preco_ajuste": "24591.25",
+        "taxaAjuste": "11.06"
+    },
+    {
+        "codigo_vencimento": "F38",
+        "vencimentoAjustado": "04/01/2038",
+        "diasUteis": 3619,
+        "volume": "0",
+        "ultima_taxa": "0,000",
+        "preco_ajuste": "22160.15",
+        "taxaAjuste": "11.06"
+    }
+]
