@@ -5,9 +5,9 @@ const { converterVencimento } = require('./converterVencimento');
 const datas = require('./datas.js')
 
 const app = express();
-const port = 3000; // Porta na qual o servidor será executado
+const port = 3000; 
 
-// Endpoint que processa a tabela
+
 app.get('/processar-tabela', async (req, res) => {
   try {
     const dataParam = req.query.data;
@@ -49,19 +49,20 @@ app.get('/processar-tabela', async (req, res) => {
 
         const linhaVazia = vencimento === '' && precoAjuste === '';
 
-        const vencimentoAjustado = datas.corrigirVencimento(vencimento);
+        //exclui sempre os casos onde não houve negócios no vértice
+        if (!linhaVazia & volume >0) {
+          const vencimentoAjustado = datas.corrigirVencimento(vencimento);
 
-        //para agilizar o cálculo de dias úteis a função já considera a quantidade de dias uteis calculados anteriormente de forma a evitar ter que calcular múltiplas vezes para o mesmo espaço temporal
-        //assim, a cada iteração, o vencimento do vértice anterior é usado como referência para o cálculo e a quantidade de dias úteis do vértice anterior é somado ao resultado
-        //dessa forma, o cálculo que antes leva um minuto e vinte segundos foi reduzido para 10 segundos
-        const diasUteis = datas.diaTrabalhoTotal(dataAnterior,vencimentoAjustado) + duAnterior;
-        dataAnterior = vencimentoAjustado;
-        duAnterior = diasUteis;
+          //para agilizar o cálculo de dias úteis a função já considera a quantidade de dias uteis calculados anteriormente de forma a evitar ter que calcular múltiplas vezes para o mesmo espaço temporal
+          //assim, a cada iteração, o vencimento do vértice anterior é usado como referência para o cálculo e a quantidade de dias úteis do vértice anterior é somado ao resultado
+          //dessa forma, o cálculo que antes leva um minuto e vinte segundos foi reduzido para 10 segundos
+          const diasUteis = datas.diaTrabalhoTotal(dataAnterior,vencimentoAjustado) + duAnterior;
+          dataAnterior = vencimentoAjustado;
+          duAnterior = diasUteis;
 
-        const taTemp = (Math.pow((100000/precoAjuste),(252/diasUteis))-1)*100;
-        const taxaAjuste = parseFloat(taTemp.toFixed(2));
+          const taTemp = (Math.pow((100000/precoAjuste),(252/diasUteis))-1)*100;
+          const taxaAjuste = parseFloat(taTemp.toFixed(2));
 
-        if (!linhaVazia) {
           dadosProcessados.push({ codigoVencimento: codigoVencimento, vencimentoAjustado,diasUteis, volume, ultimaTaxa: parseFloat(ultimaTaxa), precoAjuste: precoAjuste, taxaAjuste});
         }
       }
