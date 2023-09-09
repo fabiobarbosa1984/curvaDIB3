@@ -1,10 +1,10 @@
-const app = require('../app/app.js'); // Substitua pelo caminho correto para o arquivo da sua API
+const app = require('../app/app.js'); 
 const request = require('supertest');
 const { expect } = require('chai');
 
 describe('Testes da API', () => {
   it('Deve retornar um array de objetos JSON ao chamar /processar-tabela com parâmetro data', async () => {
-    const dataQueryParam = '15/08/2023'; // Substitua com a data apropriada
+    const dataQueryParam = '15/08/2023'; 
 
     const response = await request(app)
       .get(`/processar-tabela?data=${dataQueryParam}`)

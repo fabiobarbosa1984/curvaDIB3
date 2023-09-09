@@ -6,10 +6,12 @@ WORKDIR /usr/src/app
 
 # Copiar os arquivos necessários para o container
 COPY package*.json ./
-COPY app/app.js ./
 
 # Instalar as dependências
 RUN npm install
 
+#copia a aplicação apenas após o npm install para otimizar a construção
+COPY app/* ./
+
 # Definir o comando para iniciar a aplicação
-CMD ["node", "app/app.js"]
+CMD ["node", "app.js"]
