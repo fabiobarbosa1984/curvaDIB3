@@ -1,17 +1,27 @@
-# Definir a imagem base
+# base image
 FROM node:14
 
-# Criar e definir o diretório de trabalho no container
+# aplication directory
 WORKDIR /usr/src/app
 
-# Copiar os arquivos necessários para o container
+# primary files needed (package.json and package-lock.json)
 COPY package*.json ./
 
-# Instalar as dependências
+# dependency install
 RUN npm install
 
-#copia a aplicação apenas após o npm install para otimizar a construção
-COPY app/* ./
+# test process
+COPY test/* ./test/
 
-# Definir o comando para iniciar a aplicação
-CMD ["node", "app.js"]
+
+# Copy the application code into the container
+COPY app/* ./app/
+
+# Run the tests
+RUN npm test
+
+# starting the app
+CMD ["node", "app/app.js"]
+
+#exposing the used port
+EXPOSE 3000
