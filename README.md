@@ -1,2 +1,4 @@
 # curvaDIB3
-API em node.js para obter a taxa de referência da curva de juros futuros em uma data específica. 
+A simple node API to get di curve in a JSON format from b3 website
+
+
